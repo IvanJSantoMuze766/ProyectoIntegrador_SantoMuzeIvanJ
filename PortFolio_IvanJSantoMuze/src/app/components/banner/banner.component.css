@@ -1,5 +1,10 @@
 img{
-    max-width: 1500px;
-    width: 100%;
-    position: relative;
+	width: 71.5rem;
+	position: auto;
+	height: 25rem;
+    background-size: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
 }
