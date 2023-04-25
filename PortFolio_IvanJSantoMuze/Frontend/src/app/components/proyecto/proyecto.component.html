@@ -1,39 +1,24 @@
-<div id="experiencia" class="row">
-    <h2>Mis Proyectos</h2>
-      <div class="row gy-4">
-        <div class="col-md-6">
-          <div class="card-custom rounded-4 bg-base shadow-effect">
-            <div class="card-custom-image rounded-4">
-              <img class="rounded-4" src="assets/images/4.jpg" alt="" />
-            </div>
-            <div class="card-custom-content p-4">
-              <h4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officia beatae perspiciatis natus amet, excepturi laborum
-                tenetur ea incidunt soluta odio! Omnis ducimus eaque
-                aspernatur quam saepe minima voluptatum excepturi tenetur.
-              </h4>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-              <a href="" class="link-custom">leer más</a>
-            </div>
+<div class="row">
+  <section id="proyectos" class="text-center mt-4 pb-3">
+      <h2>Proyectos</h2>
+
+          <!-- Button trigger modal --> <app-modal-proyectos></app-modal-proyectos>
+
+          <div class="d-flex col-mx mt-2">
+              <button type="button" data-bs-toggle="modal" data-bs-target="#proyectosModal" class="btn btn-close-black"><i class="fa-solid fa-pencil"></i></button>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card-custom rounded-4 bg-base shadow-effect">
-            <div class="card-custom-image rounded-4">
-              <img class="rounded-4" src="assets/images/4.jpg" alt="" />
-            </div>
-            <div class="card-custom-content p-4">
-              <h4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officia beatae perspiciatis natus amet, excepturi laborum
-                tenetur ea incidunt soluta odio! Omnis ducimus eaque
-                aspernatur quam saepe minima voluptatum excepturi tenetur.
-              </h4>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-              <a href="" class="link-custom">leer más</a>
-            </div>
+          <div class="row align-items-start" id="card">
+              <div class="col">
+                  <h3><a href="https://github.com/IvanJSantoMuze766/ProyectoIntegrador_SantoMuzeIvanJ/tree/main/PortFolio_IvanJSantoMuze/Frontend" target="_blank">Portfolio web-FrontEnd</a></h3> 
+                  <p class="descripcion">Frontend realizado con html, css y angular como proyecto final de Argentina Programa - #YoProgramo.</p>
+                  <a target="_blank"><img src="../../../assets/img/FrontEnd.jpeg" class="card-img-top" id="frontImg"></a>
+              </div>
+              <div class="col">
+                  <h3><a href="https://github.com/Paulas12/BackEnd/tree/main" target="_blank">Portfolio web-BackEnd</a></h3> 
+                  <p class="descripcion">Backend realizado con Java como proyecto final de Argentina Programa - #YoProgramo.</p>
+                  <a target="_blank"><img src="../../../assets/img/back.png" class="card-img-top" id="backImg"></a>
+              </div>
           </div>
-        </div>
-      </div>
-    </div>
+  </section>
+  <app-modal-proyectos></app-modal-proyectos>
+</div>

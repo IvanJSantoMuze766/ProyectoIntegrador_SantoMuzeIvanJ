@@ -1,0 +1,103 @@
+<div  class="row" > 
+    <h2>Educación</h2>
+                        <!-- Button trigger modal -->
+    <div class="col-lg-2">
+        <button type="button" data-bs-toggle="modal" data-bs-target="#educacionModal" class="btn btn-close-black"><i class="fa-solid fa-pencil"></i></button>
+    </div>
+
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-dark" routerLink="/nuevaedu" *ngIf="isLogged">
+            Agregar Educacion
+        </button>
+    </div>
+
+    
+    <div class="card-group row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-lg-4 g-5" id="educacion">
+        <div class="card">
+            <img src="../../../assets/img/ISBM.png" class="card-img-top" id="tamaño">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item edu-degree"><h3>Instituto San Basilio Magno</h3></li>
+                <li class="list-group-item edu-institution">Bachiller en Humanidades y Ciencias Sociales</li>
+                <li class="list-group-item edu-date">2009 - 2014</li>
+                </ul>
+        </div>
+
+        <div class="cole">
+            <div class="card">
+                <img src="../../../assets/img/fceqyn.jpg" class="card-img-top" id="tamaño">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item edu-degree"><h3>Facultad de Ciencias Exactas,Químicas y Naturales</h3></li>
+                    <li class="list-group-item edu-institution">Analista en Sistemas de Computación</li>
+                    <li class="list-group-item edu-date">2019 - actualidad</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cole">
+            <div class="card">
+                <img src="../../../assets/img/google.png" class="card-img-top" id="tamaño">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item edu-degree"><h3>Google Actívate</h3></li>
+                    <li class="list-group-item edu-institution">Desarrollo de apps móviles</li>
+                    <li class="list-group-item edu-degree">Abril 2022</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cole">
+            <div class="card">
+                <img src="../../../assets/img/seprogramar.png" class="card-img-top" id="tamaño" >
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item edu-degree"><h3>Argentina Programa</h3></li>
+                    <li class="list-group-item edu-institution">Primer etapa finalizada: #SéProgramar. Segunda etapa en proceso: #YoProgramo</li>
+                    <li class="list-group-item edu-degree">Junio 2022 - Marzo 2023</li>
+                </ul>
+            </div>
+        </div>   
+
+        <div class="cole">
+            <div class="card">
+                <img src="../../../assets/img/openBootcamp.png" class="card-img-top" id="tamaño">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item edu-degree"><h3>Open Bootcamp</h3></li>
+                    <li class="list-group-item edu-institution">Introduccion a la programación</li>
+                    <li class="list-group-item edu-degree">Agosto 2022</li>
+                </ul>
+            </div>
+        </div> 
+
+        <div class="">
+            <div class="card">
+                <img src="../../../assets/img/educacion it.jpg" class="card-img-top" id="tamaño">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item edu-degree"><h3>Educacion IT y Telecom</h3></li>
+                    <li class="list-group-item edu-institution">Bootcamp Java Developer</li>
+                    <li class="list-group-item edu-degree">Mayo 2022 - Noviembre 2022</li>
+                </ul>
+            </div>
+        </div>  
+
+        <div class="cole">
+            <div class="card">
+                <img src="../../../assets/img/facilito.png" class="card-img-top" id="tamaño">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item edu-degree"><h3>Codigo Facilito</h3></li>
+                    <li class="list-group-item edu-institution">Introduccion al desarrollo de apps con swift-IOS</li>
+                    <li class="list-group-item edu-degree">Noviembre</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="cole">
+            <div class="card">
+                <img src="../../../assets/img/alura.png" class="card-img-top" id="tamaño">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item edu-degree"><h3>Alura LATAM y Oracle</h3></li>
+                    <li class="list-group-item edu-institution">Programa Oracle Next Education</li>
+                    <li class="list-group-item edu-degree">Actualidad</li>
+                </ul>
+            </div>
+        </div> 
+        <app-modal-educacion></app-modal-educacion>
+    </div>
+</div>

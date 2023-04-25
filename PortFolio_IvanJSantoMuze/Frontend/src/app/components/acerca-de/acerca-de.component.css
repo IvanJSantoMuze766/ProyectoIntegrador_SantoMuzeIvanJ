@@ -2,6 +2,26 @@
     padding:1.5rem;
 
 }
+#imgPerfil{
+    width: 7px;
+    height: 5px;
+    margin-left: 2cm;
+}
+.nombre{
+    position: center;
+    font-size: 40px;
+    font-style:tahoma ;
+}
+
+.puesto{
+    font-size: 18px;
+    font-style:tahoma;
+}
+
+#datos{
+    font-weight: bold;
+    
+}
 
 div{
     background-color: rgb(244,224,186);
@@ -12,18 +32,36 @@ div{
 @media (min-width:475px){
     #fotodeperfil{
     position: center;
-    width: 70%;
+    padding: 3px;
+    margin: 0, auto;
+    width: 50%;
     border-radius:100%;
+    object-fit: cover;
     left: 2%;
-    top: 60px;
+   
+}
+#datos{
+    
+    margin-top:40px;
+    margin-left:25px;
+    text-align: left;
 }
 }
 @media (max-width:1275px){
     #fotodeperfil{
     position: center;
-    width: 140%;
+    padding: 3px;
+    margin: 0 auto;
+    width: 80%;
     border-radius:100%;
+    object-fit: cover;
     left: 34%;
-    top: 950px;
+
+}
+#datos{
+    
+    margin-top:40px;
+    margin-left:25px;
+    text-align: left;
 }
 }

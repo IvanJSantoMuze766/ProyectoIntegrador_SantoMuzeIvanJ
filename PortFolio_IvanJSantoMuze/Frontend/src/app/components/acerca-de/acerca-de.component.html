@@ -1,12 +1,22 @@
 <div class="row">
    
-    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" class="img-fluid-center" id="fotodeperfil">
-        <img src="../../../assets/FotoPerfil.jpg">
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="acerca-de" >
-        <span>
-            <h3 class="text-center mt-9 pb-6">Acerca de mí</h3>
-            <p class="text-center mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, sapiente aliquam cumque harum sequi porro nam inventore veniam vitae et est, quas incidunt sed molestiae excepturi earum recusandae minima consequatur?</p>
-        </span>
-    </div>
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" >
+        <img src="../../../assets/FotoPerfil.jpg" alt="foto-de-perfil" class="img-fluid-center" id="fotodeperfil">
+        </div>
+                               <!-- Boton modal foto perfil--><app-modal-perfil></app-modal-perfil>
+                               <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#imgPerfilModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
+
+                               <div class="text-align-center col-12">
+                                   <h1 class="text-center nombre" id="datos">Santo Muze Ivan Javier</h1>
+                                   <h1 class="text-center puesto" id="datos">Full Stack developer trainee</h1>
+                               </div>
+                                       
+                               <div id="sobreMi" class="text-align-center col-12"><!--- Boton modal--->  <app-modal-acerca-de></app-modal-acerca-de> 
+                                   <h2 class="sobreMi">Sobre mi <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#sobreMiModal" class="btn btn-close-black"><i class="fa-solid fa-pencil"></i></button></h2>
+                                   <p>
+                                   Tengo 22 años, vivo en la ciudad de San Miguel de Tucuman, provincia de Tucuman, Argentina.  
+                                   Soy una persona curiosa y me gusta resolver problemas. Aprender hace parte de mi día a día y los desafíos me motivan a encontrar las mejores soluciones. 
+                                   </p>
+                               </div>
+    
 </div>

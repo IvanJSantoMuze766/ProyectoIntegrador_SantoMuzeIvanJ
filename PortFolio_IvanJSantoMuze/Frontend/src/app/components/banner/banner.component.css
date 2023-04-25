@@ -1,10 +1,7 @@
-img{
-	width: 71.5rem;
-	position: auto;
-	height: 25rem;
-    background-size: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-repeat: no-repeat;
+#banner{            
+    height: 100px;
+}
+
+#imgBanner{
+    height: 300px;
 }
