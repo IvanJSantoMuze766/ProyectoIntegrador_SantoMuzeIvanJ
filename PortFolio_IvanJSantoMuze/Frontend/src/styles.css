@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+header{
+    background-color: white;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+h2{
+    color: black; 
+    font-size: 40px;
+    font-family:Tahoma;
+    font-variant: small-caps;
+    text-align: center;
+}

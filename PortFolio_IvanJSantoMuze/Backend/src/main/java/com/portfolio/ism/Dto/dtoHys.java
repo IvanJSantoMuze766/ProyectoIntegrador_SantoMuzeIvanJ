@@ -1,6 +1,6 @@
 package com.portfolio.ism.Dto;
 
-import jakarta.validation.constraints.NotBlank;
+import javax.validation.constraints.NotBlank;
 
 
 public class dtoHys {
@@ -35,3 +35,4 @@ public class dtoHys {
     
     
 }
+    

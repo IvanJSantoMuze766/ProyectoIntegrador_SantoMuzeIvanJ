@@ -2,7 +2,7 @@ package com.portfolio.ism.Service;
 
 import com.portfolio.ism.Entity.hys;
 import com.portfolio.ism.Repository.Rhys;
-import jakarta.transaction.Transactional;
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;

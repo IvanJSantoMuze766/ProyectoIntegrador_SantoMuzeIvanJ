@@ -2,7 +2,7 @@ package com.portfolio.ism.Service;
 
 import com.portfolio.ism.Entity.Educacion;
 import com.portfolio.ism.Repository.REducacion;
-import jakarta.transaction.Transactional;
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Transactional
-public class SEducacion {
+public class Seducacion {
     @Autowired
     REducacion rEducacion;
     

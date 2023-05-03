@@ -1,6 +1,10 @@
+row{
+    --bs-gutter-x:0;
+}
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma;
+    overflow-x: hidden;
 }
 header{
-    overflow: hidden;
+    overflow-x: hidden;
 }

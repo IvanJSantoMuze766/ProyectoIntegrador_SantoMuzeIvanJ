@@ -1,10 +1,26 @@
 .row{
-    margin: 0.2em;
-    padding: 10px;
+    margin-left: 1px;
+
 }
-div{
-    background:#57a5a1;
+
+#experiencia{
+    width: 90%;
+    margin: auto;
 }
-h3, h4{
-    display: inline;
+
+.card:hover {
+    filter: opacity(.5); 
+}
+
+.card{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+#tamaño{
+    height: 180px;
+    width: 180px;
 }

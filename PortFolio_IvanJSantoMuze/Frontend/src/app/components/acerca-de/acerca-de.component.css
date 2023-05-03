@@ -1,67 +1,39 @@
 .row{
-    padding:1.5rem;
-
+    padding: 20px;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-#imgPerfil{
-    width: 7px;
-    height: 5px;
-    margin-left: 2cm;
-}
-.nombre{
-    position: center;
-    font-size: 40px;
-    font-style:tahoma ;
-}
-
-.puesto{
-    font-size: 18px;
-    font-style:tahoma;
-}
-
-#datos{
-    font-weight: bold;
-    
-}
-
 div{
     background-color: rgb(244,224,186);
     text-align: center;
 }
-
-/*Estilo de fotodeperfil*/
-@media (min-width:475px){
+/*Estilo de la foto de perfil*/
+@media (min-width: 576px){
     #fotodeperfil{
-    position: center;
-    padding: 3px;
-    margin: 0, auto;
-    width: 50%;
-    border-radius:100%;
-    object-fit: cover;
-    left: 2%;
-   
+        position: center;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top:550px;
+    }
 }
-#datos{
-    
-    margin-top:40px;
-    margin-left:25px;
-    text-align: left;
-}
-}
-@media (max-width:1275px){
+@media (max-width: 575px){
     #fotodeperfil{
-    position: center;
-    padding: 3px;
-    margin: 0 auto;
-    width: 80%;
-    border-radius:100%;
-    object-fit: cover;
-    left: 34%;
+        position: auto;
+        width: 50%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 33%;
+        top:950px;
+    }
+}
 
-}
-#datos{
-    
-    margin-top:40px;
-    margin-left:25px;
-    text-align: left;
-}
+/*etiqueta nombre*/
+#nombre{
+    font-family:Tahoma;
+    font-weight: bold;
+    margin-top: 30%;
 }

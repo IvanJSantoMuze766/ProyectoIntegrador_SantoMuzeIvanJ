@@ -2,27 +2,24 @@ package com.portfolio.ism.Security.Controller;
 
 
 public class Mensaje {
+    private String mensaje;
+    
+    //Constructor
 
-	public String mensaje;
-	
-	
-//Constructores
+    public Mensaje() {
+    }
 
-	public Mensaje(){
-		
-	}
-	public Mensaje(String mensaje) {
-		this.mensaje = mensaje;
-	}
-//Getters Y Setters
+    public Mensaje(String mensaje) {
+        this.mensaje = mensaje;
+    }
+    //Getter y Setter
 
-	public String getMensaje() {
-		return mensaje;
-	}
+    public String getMensaje() {
+        return mensaje;
+    }
 
-	public void setMensaje(String mensaje) {
-		this.mensaje = mensaje;
-	}
-	
-	
+    public void setMensaje(String mensaje) {
+        this.mensaje = mensaje;
+    }
+    
 }

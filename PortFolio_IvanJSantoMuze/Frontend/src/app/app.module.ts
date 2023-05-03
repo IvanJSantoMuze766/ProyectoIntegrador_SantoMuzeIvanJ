@@ -11,16 +11,11 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
 import { HysComponent } from './components/skills/hys.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { LoginComponent } from './components/login/login.component';
-import { ContactoComponent } from './components/contacto/contacto.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { FormsModule } from '@angular/forms';
 import { interceptorProvider } from './service/interceptor-service';
-import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
-import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
-import { EditSkillComponent, } from './components/skills/editskill.component';
-import { NewSkillComponent,} from './components/skills/newskill.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { CommonModule } from '@angular/common';
 import { EducacionComponent } from './components/educacion/educacion.component';
@@ -35,6 +30,7 @@ import { ModalAcercaDeComponent } from './components/modal/modal-acerca-de/modal
 import { ModalPerfilComponent } from './components/modal/modal-perfil/modal-perfil.component';
 import { ModalSoftSkillsComponent } from './components/modal/modal-soft-skills/modal-soft-skills.component';
 import { ModalHardSkillsComponent } from './components/modal/modal-hard-skills/modal-hard-skills.component';
+import { ModalExperienciaComponent } from './components/modal/modal-experiencia/modal-experiencia.component';
 
 
 @NgModule({
@@ -48,13 +44,8 @@ import { ModalHardSkillsComponent } from './components/modal/modal-hard-skills/m
     HysComponent,
     ProyectoComponent,
     LoginComponent,
-    ContactoComponent,
     FooterComponent,
     HomeComponent,
-    NewExperienciaComponent,
-    EditExperienciaComponent,
-    EditSkillComponent,
-    NewSkillComponent,
     EducacionComponent,
     Error404Component,
     ModalComponent,
@@ -67,6 +58,7 @@ import { ModalHardSkillsComponent } from './components/modal/modal-hard-skills/m
     ModalPerfilComponent,
     ModalSoftSkillsComponent,
     ModalHardSkillsComponent,
+    ModalExperienciaComponent,
   ],
   imports: [
     BrowserModule,

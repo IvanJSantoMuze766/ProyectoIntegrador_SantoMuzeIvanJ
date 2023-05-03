@@ -2,7 +2,7 @@ package com.portfolio.ism.Service;
 
 import com.portfolio.ism.Entity.Experiencia;
 import com.portfolio.ism.Repository.RExperiencia;
-import jakarta.transaction.Transactional;
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;

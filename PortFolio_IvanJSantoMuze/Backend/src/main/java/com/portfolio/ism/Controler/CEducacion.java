@@ -4,7 +4,7 @@ package com.portfolio.ism.Controler;
 import com.portfolio.ism.Dto.dtoEducacion;
 import com.portfolio.ism.Entity.Educacion;
 import com.portfolio.ism.Security.Controller.Mensaje;
-import com.portfolio.ism.Service.SEducacion;
+import com.portfolio.ism.Service.Seducacion;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,10 +22,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/educacion")
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"https://mgbfrontend.web.app","http://localhost:4200"})
 public class CEducacion {
     @Autowired
-    SEducacion sEducacion;
+    Seducacion sEducacion;
     
     @GetMapping("/lista")
     public ResponseEntity<List<Educacion>> list(){
@@ -90,4 +90,3 @@ public class CEducacion {
         return new ResponseEntity(new Mensaje("Educacion actualizada"), HttpStatus.OK);
     }
 }
-
